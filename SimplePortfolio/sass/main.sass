@@ -1,0 +1,155 @@
+@import "bourbon/bourbon"
+
+html.js .loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+body
+	font-family: "RobotoRegular", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialiased
+	overflow-x: hidden
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.head-wrap
+	background-color: #fff
+
+	.container
+		background-color: #fff
+		height: 100px
+
+		.header-logo
+			float: left
+			padding-right: 30px
+			margin-top: 30px
+
+		.main-text
+			font-weight: bold
+			font-size: 20px
+			color: #7a7a7a
+			margin-top: 30px
+			letter-spacing: 2px
+			text-align: left
+
+.secondary-text
+	font-size: 11px
+	text-align: left
+	margin-top: -8px
+	font-weight: 500
+	color: #ccd7dd
+	text-transform: uppercase
+
+
+			
+.wrap
+	background-color: #fc758c
+
+	.container
+		background-color: #fc758c
+		height: 600px
+		color: #fff
+
+	.main-title
+		display: none
+		text-align: center
+		margin-top: 250px
+
+		h1
+			letter-spacing: 5px
+		p 
+			font-weight: 600
+
+	.more-work
+		display: none
+		margin: 35px auto
+		color: #fc758c
+		background-color: #fff
+		width: 125px
+		height: 35px
+		text-align-last: center
+		font-size: 12px
+		font-weight: bold
+		line-height: 35px
+ 	
+.nav 	
+	float: right
+	display: inline-block
+	margin-top: -48px
+	margin-right: 70px
+	
+.activated
+	margin-right: 220px
+
+ul
+	list-style: none
+	
+	li 	
+		float: left
+		padding: 5px 30px
+		cursor: pointer
+		color: #b2b2b2
+
+		&:hover
+			background-color: #fc758c
+			color: #fff
+	.active
+		background-color: #ff5672
+		color: #fff
+
+.search	
+	float: right
+	margin-top: -28px
+	color: #fc758c
+	cursor: pointer
+
+.search-row 
+	display: none
+	float: right
+	margin-top: -32px
+	margin-right: 28px
+
+.bottom-nav
+	+clearfix
+	padding: 15px 5px 20px 5px
+	margin: 0 auto
+	max-width: 600px
+	height: 90px
+
+.img-responsive
+	margin-bottom: 25px
+
+.more-work
+	cursor: pointer
+
+	
+	
